@@ -28,8 +28,6 @@ public class Numeros_Amigos {
         if (numero1 > 0) {
 
             if (numero2 > 0) {
-
-                // Calcular los divisores del primer numero
                 for (int i = 1; i < numero1; i++) {
 
                     if (numero1 % i == 0) {
@@ -38,7 +36,6 @@ public class Numeros_Amigos {
 
                 }
 
-                // Calcular los divisores del segundo numero
                 for (int i = 1; i < numero2; i++) {
 
                     if (numero2 % i == 0) {
@@ -50,7 +47,6 @@ public class Numeros_Amigos {
                 System.out.println("Suma de divisores del primer numero: " + suma1);
                 System.out.println("Suma de divisores del segundo numero: " + suma2);
 
-                // Comprobar si son numeros amigos
                 if (numero1 == numero2) {
 
                     System.out.println("No son numeros amigos");
